@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <parameter name="navegador" value="edge"></parameter>
+    <test verbose="2" preserve-order="true" name="C:/Users/diazd/OneDrive/Escritorio/proyectoSelenium/testUdemy/src/test/java">
+        <packages>
+            <package name="test.java"></package>
+        </packages>
+        <classes>
+            <class name="PruebinUdemy">
+                <methods>
+                    <include name="despuesPruebas"/>
+                    <include name="pruebaInicioSesionExistoso"/>
+                    <include name="pruebaInicioSesionCredencialesIncorrectas"/>
+                    <include name="despuesPrueba"/>
+                    <include name="pruebaInicioSesionUsuarioBloqueado"/>
+                    <include name="preparacionPrueba"/>
+                    <include name="antesPruebas"/>
+                </methods>
+            </class>
+            <class name="MenuHambur">
+                <methods>
+                    <include name="configuracionInicial"/>
+                    <include name="itemUno"/>
+                    <include name="itemDos"/>
+                    <include name="itemTres"/>
+                    <include name="itemCuatro"/>
+                    <include name="despuesPruebas"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

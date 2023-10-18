@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="testUdemy(failed)">
+    <classes>
+      <class name="PruebinUdemy">
+        <methods>
+          <include name="despuesPruebas"/>
+          <include name="pruebaInicioSesionExistoso"/>
+          <include name="pruebaInicioSesionCredencialesIncorrectas"/>
+          <include name="despuesPrueba"/>
+          <include name="pruebaInicioSesionUsuarioBloqueado"/>
+          <include name="preparacionPrueba"/>
+          <include name="antesPruebas"/>
+        </methods>
+      </class> <!-- PruebinUdemy -->
+    </classes>
+  </test> <!-- testUdemy(failed) -->
+</suite> <!-- Failed suite [Default Suite] -->
